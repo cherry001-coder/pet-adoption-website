@@ -1,0 +1,194 @@
+* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: Arial, sans-serif;
+		}
+
+		/* Header Section */
+		#header {
+			width: 100%;
+			height: 70px;
+			background-color: #082145;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 0 30px;
+		}
+		.box-name {
+			color: #FFF;
+			font-size: 22px;
+		}
+		.box-role {
+			color: #a0b2ce;
+			font-size: 14px;
+		}
+
+		/* Menu using SPAN tags */
+		.menu-names {
+			color: #FFF;
+			margin-left: 25px;
+			font-size: 15px;
+			font-weight: bold;
+			cursor: pointer;
+			padding-bottom: 3px;
+		}
+
+		/* Hover highlighting and underline */
+		.menu-names:hover {
+			color: yellow;
+			border-bottom: 2px solid yellow;
+		}
+
+		/* Active style for Home */
+		.active-home {
+			color: yellow;
+			border-bottom: 2px solid yellow;
+		}
+
+		/* Banner Area */
+		.box1 {
+			width: 100%;
+			height: 220px;
+			background-color: #ecf5fe;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 0 145px;
+			border-bottom: 1px dotted #000;
+		}
+		.text-box {
+			width: 550px;
+			padding: 5px;
+		}
+		.circle-container {
+			width: 35%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.circle {
+			width: 170px;
+			height: 170px;
+			background-color: #082145;
+			border-radius: 50%;
+			overflow: hidden;
+		}
+		.circle img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.btn-cv {
+			background-color: #082145;
+			color: white;
+			padding: 8px 16px;
+			border: none;
+			font-size: 14px;
+			margin-top: 12px;
+			cursor: pointer;
+			border-radius: 3px;
+		}
+
+		/* Main Layout Container */
+		.main-container {
+			padding: 15px 30px;
+		}
+		.section-row {
+			width: 100%;
+			display: flex;
+			justify-content: space-between;
+			gap: 15px;
+			margin-bottom: 15px;
+		}
+		.content-box {
+			border: 1px solid #FFF;
+			padding: 15px;
+			background-color: #FFF;
+			border-radius: 4px;
+		}
+
+		/* Row 1 Layout */
+		.box-about { width: 30%; }
+		.box-skills { width: 22%; }
+		.box-edu { width: 45%; }
+
+		/* Row 2 Column Split */
+		.left-column {
+			width: 65%;
+			display: flex;
+			flex-direction: column;
+			gap: 15px;
+		}
+		.right-column {
+			width: 33%;
+		}
+
+		.box-title {
+			font-size: 16px;
+			font-weight: bold;
+			margin-bottom: 10px;
+			display: block;
+			color: #051735;
+		}
+
+		/* Table Styling */
+		table {
+			width: 100%;
+			border-collapse: collapse;
+		}
+		table, th, td {
+			border: 1px solid #000;
+			font-size: 13px;
+			padding: 5px 8px;
+			text-align: left;
+		}
+
+		/* Projects Inner Layout */
+		.projects-flex {
+			display: flex;
+			justify-content: space-between;
+			gap: 10px;
+		}
+		.project-item {
+			border: 1px solid #000;
+			padding: 10px;
+			width: 32%;
+			border-radius: 3px;
+		}
+
+		/* Form Styling */
+		.form-input {
+			width: 100%;
+			padding: 6px 8px;
+			margin-top: 3px;
+			margin-bottom: 10px;
+			border: 1px solid #777;
+			border-radius: 3px;
+			font-size: 13px;
+		}
+
+		/* Connect Links */
+		.social-links {
+			display: flex;
+			gap: 20px;
+			align-items: center;
+			margin-top: 5px;
+		}
+		.social-links a {
+			color: blue;
+			font-size: 15px;
+			font-weight: bold;
+			text-decoration: none;
+		}
+
+		/* Footer */
+		.footer {
+			width: 100%;
+			height: 40px;
+			background-color: #082145;
+			color: white;
+			text-align: center;
+			line-height: 40px;
+			font-size: 13px;
+		}
